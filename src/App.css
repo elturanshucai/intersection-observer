@@ -1,0 +1,21 @@
+ul {
+  list-style: none;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.gallery img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.empty_image {
+  width: 500px;
+  height: 500px;
+  background-color: initial;
+}
