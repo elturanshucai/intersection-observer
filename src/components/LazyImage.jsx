@@ -5,6 +5,8 @@ const LazyImage = (props) => {
     const imageRef = useRef()
 
     const options = {
+        root: null,
+        rootMargin: 0,
         threshold: 0.5
     }
 
